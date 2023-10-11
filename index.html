@@ -9,15 +9,19 @@
 <body>
     <div class="container">
         <h2>Agregar/Modificar Elemento</h2>
-        <form id="element-form">
+        <form>
             <label for="nombre">Nombre del Producto:</label>
             <input type="text" name="nombre" placeholder="Nombre del Producto" required data-input>
             
             <label for="descripcion">Descripción del Producto:</label>
-            <textarea id="descripcion" name="descripcion" placeholder="Descripcion del Producto" rows="4" required></textarea>
+            <textarea id="descripcion" name="descripcion" placeholder="Descripcion del Producto" rows="4" required data-input2></textarea>
             
             <button type="submit" data-btn>Guardar</button>
         </form>
     </div>
+    <ul class="cardsList"data-list> 
+         
+    </ul>
 </body>
+<script src="script.js"></script>
 </html>
