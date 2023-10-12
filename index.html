@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="js.js"> 
 </head>
 <body>
     <div class="container">
-        <h2>Agregar/Modificar Elemento</h2>
+       <center><h2>Agregar Producto y Descripcion</h2></center> 
         <form>
-            <label for="nombre">Nombre del Producto:</label>
+            <center><label for="nombre">Producto</label></center>
             <input type="text" name="nombre" placeholder="Nombre del Producto" required data-input>
             
-            <label for="descripcion">Descripción del Producto:</label>
-            <textarea id="descripcion" name="descripcion" placeholder="Descripcion del Producto" rows="4" required data-input2></textarea>
+            <center><label for="descripcion">Descripción</label></center>
+            <textarea name="descripcion" placeholder="Descripcion del Producto" rows="4" required data-input2></textarea>
+
+            <center><label for="Precio">Precio</label></center>
+            <center><input type="number" name="Precio" placeholder="Precio del Producto en Bs." required data-input3></center>
             
-            <button type="submit" data-btn>Guardar</button>
+           <center><button type="submit" data-btn>Guardar</button></center> 
         </form>
     </div>
     <ul class="cardsList"data-list> 
